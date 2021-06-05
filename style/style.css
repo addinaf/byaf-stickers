@@ -1,0 +1,17 @@
+:root {
+  --title-font: "Quicksand", sans-serif;
+  --dark-color: #685454;
+  --primary-pink: #ea8a8a;
+  --light-color: #fcf8f3;
+  --highlight-color: #f5ba60;
+}
+body {
+  background-color: var(--light-color);
+  font-family: var(--title-font);
+}
+h4 {
+  font-family: var(--title-font);
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--primary-pink);
+}
