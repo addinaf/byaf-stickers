@@ -60,11 +60,14 @@ h5.sub-title {
 }
 .container-button {
   margin-top: 30px;
-}
-.container-stickers {
-  padding-top: 100px;
-  padding-bottom: 100px;
   padding-right: 50px;
   padding-left: 50px;
+}
+.container-stickers {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-right: 80px;
+  padding-left: 80px;
   align-content: center;
+  justify-content: center;
 }
