@@ -36,11 +36,17 @@ h2 {
   text-align: center;
   margin-top: 30px;
 }
+.more-things {
+  margin-bottom: 30px;
+}
 h4 {
   font-family: var(--title-font);
   font-size: 18px;
   font-weight: 600;
   color: var(--primary-pink);
+}
+.more-links {
+  text-align: center;
 }
 h5 {
   font-family: var(--title-font);
