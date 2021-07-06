@@ -62,6 +62,16 @@ h5.sub-title {
   text-align: center;
   margin-top: 5px;
 }
+p {
+  font-family: var(--title-font);
+  font-size: 14px;
+  color: var(--dark-color);
+  text-align: center;
+  margin-bottom: 10px;
+}
+footer {
+  margin-top: 100px;
+}
 .container-navbar {
   padding-top: 15px;
   padding-bottom: 15px;
