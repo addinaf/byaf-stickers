@@ -114,3 +114,28 @@ footer {
 justify-content: center !important;
 align-content: center !important;
 }
+@media (max-width: 900px) {
+  body {
+  background-color: var(--light-color);
+  font-family: var(--title-font);
+  background-image: none;
+}
+h1 {
+  font-size: 28px;
+}
+h4 {
+  font-size: 18px;
+}
+h4.pink-button-link {
+font-size: 16px;
+}
+h4.light-button {
+font-size: 16px;
+}
+h5 {
+  font-size: 15px;
+}
+h5.sub-title {
+  font-size: 15px;
+}
+}
