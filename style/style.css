@@ -44,8 +44,6 @@ h4 {
   font-size: 18px;
   font-weight: 600;
   color: var(--primary-pink);
-}
-.more-links {
   text-align: center;
 }
 h5 {
@@ -61,6 +59,13 @@ h5.sub-title {
   color: var(--primary-pink);
   text-align: center;
   margin-top: 5px;
+}
+h5.more-links {
+  text-align: center;
+  font-size: 16px;
+  margin-top: 0px;
+  font-family: var(--title-font);
+  color: var(--primary-pink)
 }
 p {
   font-family: var(--title-font);
@@ -106,5 +111,6 @@ footer {
   padding-bottom: 100px;
   padding-right: 50px;
   padding-left: 50px;
-  align-content: center;
+justify-content: center !important;
+align-content: center !important;
 }
