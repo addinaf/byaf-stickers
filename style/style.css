@@ -3,7 +3,7 @@
   --dark-color: #685454;
   --primary-pink: #ea8a8a;
   --light-color: #fcf8f3;
-  --highlight-color: #c2a881;
+  --highlight-color: #F0C054;
 }
 body {
   background-color: var(--light-color);
