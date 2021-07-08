@@ -3,7 +3,7 @@
   --dark-color: #685454;
   --primary-pink: #ea8a8a;
   --light-color: #fcf8f3;
-  --highlight-color: #F0C054;
+  --highlight-color: #f0c054;
 }
 body {
   background-color: var(--light-color);
@@ -46,6 +46,9 @@ h4 {
   color: var(--primary-pink);
   text-align: center;
 }
+h4.navbar-button {
+  color: var(--light-color);
+}
 h5 {
   font-family: var(--title-font);
   font-size: 18px;
@@ -65,7 +68,7 @@ h5.more-links {
   font-size: 16px;
   margin-top: 0px;
   font-family: var(--title-font);
-  color: var(--primary-pink)
+  color: var(--primary-pink);
 }
 p {
   font-family: var(--title-font);
@@ -82,10 +85,65 @@ button.pink-button {
   border-radius: 30px;
   padding-inline: 30px;
   padding-top: 15px;
-  padding-bottom: 10px
+  padding-bottom: 10px;
+  margin: 10px;
 }
 button.pink-button:hover {
   background-color: var(--highlight-color);
+}
+button.light-button {
+  background-color: var(--light-color);
+  border-radius: 30px;
+  border-width: 1px;
+  border-color: var(--primary-pink);
+  padding-inline: 30px;
+  padding-top: 15px;
+  padding-bottom: 10px;
+}
+button.light-button:hover {
+  background-color: var(--highlight-color);
+}
+button.form-button {
+  background-color: var(--light-color);
+  border-radius: 30px;
+  border-width: 1px;
+  border-color: var(--primary-pink);
+  padding-inline: 30px;
+  padding-top: 15px;
+  padding-bottom: 10px;
+}
+button.form-button:hover {
+  background-color: var(--light-color);
+  border-radius: 30px;
+  border-width: 1px;
+  border-color: var(--primary-pink);
+  padding-inline: 30px;
+  padding-top: 15px;
+  padding-bottom: 10px;
+}
+button.light-button-small {
+  background-color: var(--light-color);
+  border-radius: 20px;
+  border-width: 1px;
+  border-color: var(--primary-pink);
+  padding-inline: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-left: 5px;
+}
+a.pink-button-link {
+  color: var(--light-color);
+  text-decoration: none;
+}
+a.pink-button-link:hover {
+  color: var(--light-color);
+}
+a.light-button-link {
+  color: var(--primary-pink);
+  text-decoration: none;
+}
+a.light-button-link:hover {
+  color: var(--light-color);
 }
 .container-navbar {
   padding-top: 15px;
@@ -121,34 +179,34 @@ button.pink-button:hover {
   padding-bottom: 100px;
   padding-right: 50px;
   padding-left: 50px;
-justify-content: center !important;
-align-content: center !important;
+  justify-content: center !important;
+  align-content: center !important;
 }
 @media (max-width: 900px) {
   body {
-  background-color: var(--light-color);
-  font-family: var(--title-font);
-  background-image: none;
-}
-h1 {
-  font-size: 28px;
-}
-h2 {
-  font-size: 28px;
-}
-h4 {
-  font-size: 18px;
-}
-h4.pink-button-link {
-font-size: 16px;
-}
-h4.light-button {
-font-size: 16px;
-}
-h5 {
-  font-size: 15px;
-}
-h5.sub-title {
-  font-size: 15px;
-}
+    background-color: var(--light-color);
+    font-family: var(--title-font);
+    background-image: none;
+  }
+  h1 {
+    font-size: 28px;
+  }
+  h2 {
+    font-size: 28px;
+  }
+  h4 {
+    font-size: 18px;
+  }
+  h4.pink-button-link {
+    font-size: 16px;
+  }
+  h4.light-button {
+    font-size: 16px;
+  }
+  h5 {
+    font-size: 15px;
+  }
+  h5.sub-title {
+    font-size: 15px;
+  }
 }
