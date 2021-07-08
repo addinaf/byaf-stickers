@@ -131,6 +131,17 @@ button.light-button-small {
   padding-bottom: 10px;
   margin-left: 5px;
 }
+button.light-button-small:hover {
+  background-color: var(--primary-pink);
+}
+a {
+  text-decoration: none;
+  color: var(--primary-pink);
+}
+a:hover {
+  color: var(--dark-color);
+  font-weight: bolder;
+}
 a.pink-button-link {
   color: var(--light-color);
   text-decoration: none;
